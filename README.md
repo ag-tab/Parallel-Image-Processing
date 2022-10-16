@@ -4,7 +4,7 @@ Parallel implementation (OpenMP and MPI) of Basic Image Processing algorithms
 ## Running a program
 
 ### Serial Implementation
-- `g++ <your_program.cpp> ../../lodepng.cpp -Wall -Wextra -pedantic -ansi -O3 -fopemp`
+- `g++ <your_program.cpp> ../../lodepng.cpp -Wall -Wextra -pedantic -ansi -O3 -fopenmp`
 - `./a.out`
 
 ### OpenMP Implementation
@@ -16,5 +16,5 @@ Parallel implementation (OpenMP and MPI) of Basic Image Processing algorithms
 - `mpiexec -n <no_of_processors> ./a.out`
 
 ## Acknowledgment
-- [lodeng](https://github.com/lvandeve/lodepng) : for reading and writing PNG images. 
+- [lodepng](https://github.com/lvandeve/lodepng) : for reading and writing PNG images. 
 
